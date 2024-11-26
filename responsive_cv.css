@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col_left, .col_right {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    
+    .contact_button {
+        width: 25%;
+    }
+
+}
+}
+

@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  color: black;
+  text-align: center;
+  padding: 4em 0;
+  position: relative;
+}
+
+header nav {
+  top: 0%;
+  position: absolute;
+  margin: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  margin: 2%;
+  gap: 60px;
+}
+
+.photoProfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photoProfil:hover {
+  transform: scale(1.1);
+}
+
+.icones {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.icones img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+  background-color: #fff;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.col_left {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.col_right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.icon_container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.icon_container img {
+  width: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon_container img:hover {
+  transform: scale(1.1);
+}
+
+.fujicontainer {
+  position: relative;
+  text-align: center;
+}
+
+.fuji_image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.contact_button {
+  position: absolute;
+  top: 47%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  padding: 10px 10px;
+  background-color: #000000;
+  color: white;
+}
+
+.barre {
+  width: 50%;
+  height: 2px;
+  background-color: #333;
+  margin: 10px 0 20px 0;
+}
+
+.slogan {
+  color: gray;
+}
+
+h2,
+h1 {
+  font-weight: bold;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: right;
+}
+
+.footer_content {
+  max-width: 1200px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 35px;
+}
+
+.footer_content p {
+  margin: 0;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link2 {
+  color: white;
+}
+
+.link3 {
+  text-decoration: none;
+  color: white;
+}
+
+i{
+  color: white;
+}
